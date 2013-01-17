@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = RunOnce::VERSION
   gem.authors       = ["dewang wei"]
   gem.email         = ["dewang.wei@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{避免脚本重复运行}
+  gem.summary       = %q{}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

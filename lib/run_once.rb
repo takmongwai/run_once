@@ -21,5 +21,6 @@ module RunOnce
         f.write Process.pid
       end
     end
+    nil
   end
 end

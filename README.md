@@ -4,17 +4,9 @@
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'run_once'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install run_once
+ git clone git://github.com/weidewang/run_once.git
+ cd run_once
+ rake install
 
 ## Usage
 
