@@ -16,11 +16,12 @@
 require 'rubygems'
 require 'run_once'
 
+# RunOnce.runing(:pid_dir => Dir::tmpdir,:file_name => $0)
+# 
 RunOnce.runing{|pid| 
   puts %Q~#{$0} is runing,pid is #{pid}~
   exit(0)
 }
-
 
  # you code
 
