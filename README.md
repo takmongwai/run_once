@@ -3,11 +3,11 @@
 避免ruby脚本重复运行的函数
 
 ## Installation
-
+<pre>
  git clone git://github.com/weidewang/run_once.git
  cd run_once
  rake install
-
+</pre>
 ## Usage
 
 <pre>
