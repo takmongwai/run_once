@@ -14,6 +14,7 @@ module RunOnce
     old_pid ||= 0
 
     begin
+      raise Errno::ESRCH if old_pid == 0
       Process.getpgid(old_pid)
       return yield(old_pid) if block_given?
       return old_pid
