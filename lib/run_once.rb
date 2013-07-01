@@ -1,5 +1,6 @@
 require "run_once/version"
 require 'fileutils'
+require 'tmpdir'
 
 module RunOnce
   def self.runing(args={})
